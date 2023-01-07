@@ -1,0 +1,13 @@
+name: LimitedLives
+version: ${project.version}
+main: me.heklo.limitedlives.LimitedLives
+api-version: 1.19
+authors: [ Heklo ]
+description: Give players a limited number of lives, and temporarily ban them when all are lost.
+softdepend:
+  - PlaceholderAPI
+commands:
+  limitedlives:
+    description: Base command for LimitedLives plugin
+    usage: /limitedlives
+    aliases: [ll]

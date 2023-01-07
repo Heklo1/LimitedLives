@@ -1,0 +1,5 @@
+default-lives: 3
+max-lives: 5
+punish-command: "tempban %player% 30m You lost all your lives!"
+lose-life-msg: "&bYou died and lost a life. Current Lives: &f%limitedlives_lives%"
+gain-life-msg: "&bYou killed %victim% and gained a life. Current Lives: &f%lives%"
